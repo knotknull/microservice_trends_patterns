@@ -77,3 +77,15 @@ OpenShift Application Runtimes (spring, vert.x, microprofile.io)
 spring-cloud-kubernetes project on github
 https://github.com/spring-cloud-incubator/spring-cloud-kubernetes
 
+
+http://bit.ly/redhatnewjersey
+http://gist-reveal.it/bit.ly/redhatnewjersey#/red-hat-workshop-jersey-city
+
+
+Hands-On in Jersey City
+https://dev.roadshow.openshift.com/jerseycity
+
+Passcode: k9dw
+
+
+also learn.openshift.com
