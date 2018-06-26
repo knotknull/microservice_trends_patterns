@@ -1,0 +1,79 @@
+Microservices, containers, API
+
+Technical Trends and Patterns Driving Agility in Financial Services
+
+bit.ly/istio-book
+
+
+scientific method for determining value to customer and the firm
+	- need to measure along the way !?!  (how?)
+
+Boyd cycle  ==  OODA loop:  Observe -> Orient -> Decide -> Act
+
+
+API tracking & metrics (needed in common services)
+
+istio (avail on 3.11 openshift)
+
+cloud-native platform (netflix oss):
+ - distributed config
+ - service discovery
+ - load balancing
+ - circuit breakers
+ - bulkheading
+ - versioning / routing
+ - self-service / on-demand
+ - elasitc, API driven infrastructure
+
+
+
+
+Focus on domain models (as opposed to data ]
+
+Service Cutter: A Systematic Approach to Service Decomposition
+https://link.springer.com/chapter/10.1007/978-3-319-44482-6_12
+
+
+www.openapis.org (was swagger ??)
+The OpenAPI Initiative (OAI) was created by a consortium of forward-looking industry experts who recognize the immense value of standardizing on how REST APIs are described. As an open governance structure under the Linux Foundation, the OAI is focused on creating, evolving and promoting a vendor neutral description format. SmartBear Software is donating the Swagger Specification directly to the OAI as the basis of this Open Specification. 
+
+
+www.asyncapi.com
+Define your Message-Driven APIs
+
+
+
+3scale  (but we are using Mule ??)
+
+gateway on nginx running openshift
+
+
+
+
+circuit breaker / fallback : hystrix
+
+
+
+Saga pattern:  Long running actions:
+https://www.nicolaferraro.me/2018/04/25/saga-pattern-in-apache-camel/
+https://github.com/nicolaferraro/camel-saga-quickstart
+
+A new enterprise integration pattern has been added to Apache Camel (2.21.0): the “Saga” pattern. This article will show you why, when and how to use it in order to build robust and consistent applications in the cloud
+
+
+Testing Toolkits
+Microcks, Hoverfly, Wiremock
+Arquillian (integration tests)
+Arquillian Cube  (testing in docker /kubernets)
+Arquillian Algeron (contract testing)
+
+
+Books available at developers.redhat.com
+
+
+OpenShift Application Runtimes (spring, vert.x, microprofile.io)
+
+
+spring-cloud-kubernetes project on github
+https://github.com/spring-cloud-incubator/spring-cloud-kubernetes
+
